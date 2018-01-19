@@ -1,0 +1,76 @@
+body {
+  font-family: "Microsoft YaHei", "宋体", Arial, Helvetica, sans-serif;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+
+.header {
+  margin: 0 auto;
+  width: 1200px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo h1 {
+  float: left;
+  margin: 0 20px 0 0;
+}
+.logo h1 a{
+  display: inline-block;
+  width: 182px;
+  height: 80px;
+  text-indent: -9999px;
+  background:url(../images/logo.png) no-repeat 0 center;
+}
+.logo strong {
+  padding: 8px 20px;
+  font-size: 14px;
+  color:#666;
+  border-left: 2px solid #ccc;
+  font-weight: normal;
+}
+.menu {
+  position: relative;
+  float: right;
+  font-size: 16px;
+}
+
+.menu li {
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+}
+.menu-bar,
+.menu .menu-selected:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background: #f7ac11;
+  transition: all .2s;
+}
+.menu .menu-selected:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.menu li a {
+  display: block;
+  padding: 0 10px;
+  color: #333;
+}
+.menu li a:hover,
+.menu .menu-selected a{
+  color: #f7ac11;
+}
