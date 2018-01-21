@@ -25,5 +25,12 @@ $(function () {
                 ,opacity: 0
             });
         },100);
+        });
+    //banner
+    $(".banner").Slide({
+        effect:"fade",
+        speed:600,
+        timer:5000
     });
+
 });
