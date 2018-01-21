@@ -296,6 +296,8 @@ a:focus {
     height: 400px;
     overflow: hidden;
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .banner .bannerC li a {
